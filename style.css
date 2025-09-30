@@ -1,0 +1,113 @@
+
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    background-color: #e0f7fa;
+    color: #333;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    padding: 20px;
+}
+
+/* Headings */
+h1 {
+    color: #01579b;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h2 {
+    color: #0277bd;
+    margin: 20px 0 10px;
+    border-bottom: 2px solid #81d4fa;
+    padding-bottom: 5px;
+}
+h3 {
+    color: #004d40;
+    margin-top: 15px;
+}
+
+/* Paragraph */
+p {
+    margin: 10px 0;
+}
+
+/* Horizontal Rule */
+hr {
+    border: none;
+    height: 2px;
+    background-color: #81d4fa;
+    margin: 30px 0;
+}
+
+/* Lists */
+ul {
+    list-style-type: disc;
+    margin: 10px 0 10px 20px;
+}
+
+/* Card Container */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #b3e5fc;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 15px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Hover effect */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Specific Section Cards */
+#campus-map .card {
+    border-left: 5px solid #0277bd;
+}
+#hostels .card {
+    border-left: 5px solid #558b2f;
+}
+#food-places .card {
+    border-left: 5px solid #f9a825;
+}
+#clubs .card {
+    border-left: 5px solid #6a1b9a;
+}
+#events .card {
+    border-left: 5px solid #c62828;
+}
+
+/* Footer text */
+footer p {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 40px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    .card {
+        padding: 12px;
+    }
+    h1 {
+        font-size: 1.8rem;
+    }
+    h2 {
+        font-size: 1.4rem;
+    }
+    h3 {
+        font-size: 1.2rem;
+    }
+}
